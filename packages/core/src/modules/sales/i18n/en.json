@@ -1540,5 +1540,20 @@
   "sales.notifications.payment.received.title": "Payment Received",
   "sales.notifications.payment.received.body": "Payment of {amount} received for order #{orderNumber}",
   "sales.notifications.quote.expiring.title": "Quote Expiring Soon",
-  "sales.notifications.quote.expiring.body": "Quote #{quoteNumber} expires in {daysUntilExpiry} days ({expiresAt})"
+  "sales.notifications.quote.expiring.body": "Quote #{quoteNumber} expires in {daysUntilExpiry} days ({expiresAt})",
+  "sales.widgets.newOrders.title": "New Orders",
+  "sales.widgets.newOrders.description": "Track recently created sales orders.",
+  "sales.widgets.newOrders.loading": "Loading...",
+  "sales.widgets.newOrders.empty": "No new orders in this period.",
+  "sales.widgets.newOrders.error": "Unable to load new orders.",
+  "sales.widgets.newOrders.unknownCustomer": "Unknown customer",
+  "sales.widgets.newOrders.showingOf": "Showing {shown} of {total}",
+  "sales.widgets.newOrders.settings.pageSize": "Items to show",
+  "sales.widgets.newOrders.settings.datePeriod": "Date period",
+  "sales.widgets.newOrders.settings.customFrom": "From date",
+  "sales.widgets.newOrders.settings.customTo": "To date",
+  "sales.widgets.newOrders.periods.last24h": "Last 24 hours",
+  "sales.widgets.newOrders.periods.last7d": "Last 7 days",
+  "sales.widgets.newOrders.periods.last30d": "Last 30 days",
+  "sales.widgets.newOrders.periods.custom": "Custom range"
 }

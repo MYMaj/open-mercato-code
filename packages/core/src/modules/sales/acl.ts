@@ -10,6 +10,7 @@ export const features = [
   { id: 'sales.credit_memos.manage', title: 'Manage credit memos', module: 'sales' },
   { id: 'sales.channels.manage', title: 'Manage sales channels', module: 'sales' },
   { id: 'sales.settings.manage', title: 'Manage sales configuration', module: 'sales' },
+  { id: 'sales.widgets.new-orders', title: 'New Orders dashboard widget', module: 'sales' },
 ]
 
 export default features

@@ -1537,5 +1537,20 @@
   "sales.search.badge.deliveryWindow": "Ventana de entrega",
   "sales.search.badge.paymentMethod": "Método de pago",
   "sales.search.badge.taxRate": "Tasa de impuesto",
-  "sales.search.badge.documentTag": "Etiqueta de documento"
+  "sales.search.badge.documentTag": "Etiqueta de documento",
+  "sales.widgets.newOrders.title": "Nuevos pedidos",
+  "sales.widgets.newOrders.description": "Seguimiento de pedidos creados recientemente.",
+  "sales.widgets.newOrders.loading": "Cargando...",
+  "sales.widgets.newOrders.empty": "No hay pedidos nuevos en este período.",
+  "sales.widgets.newOrders.error": "No se pudieron cargar los pedidos.",
+  "sales.widgets.newOrders.unknownCustomer": "Cliente desconocido",
+  "sales.widgets.newOrders.showingOf": "Mostrando {shown} de {total}",
+  "sales.widgets.newOrders.settings.pageSize": "Elementos a mostrar",
+  "sales.widgets.newOrders.settings.datePeriod": "Período",
+  "sales.widgets.newOrders.settings.customFrom": "Desde fecha",
+  "sales.widgets.newOrders.settings.customTo": "Hasta fecha",
+  "sales.widgets.newOrders.periods.last24h": "Últimas 24 horas",
+  "sales.widgets.newOrders.periods.last7d": "Últimos 7 días",
+  "sales.widgets.newOrders.periods.last30d": "Últimos 30 días",
+  "sales.widgets.newOrders.periods.custom": "Rango personalizado"
 }

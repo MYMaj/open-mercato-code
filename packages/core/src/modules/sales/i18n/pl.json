@@ -1552,5 +1552,20 @@
   "sales.search.badge.deliveryWindow": "Okno dostawy",
   "sales.search.badge.paymentMethod": "Metoda płatności",
   "sales.search.badge.taxRate": "Stawka podatku",
-  "sales.search.badge.documentTag": "Tag dokumentu"
+  "sales.search.badge.documentTag": "Tag dokumentu",
+  "sales.widgets.newOrders.title": "Nowe zamówienia",
+  "sales.widgets.newOrders.description": "Śledź ostatnio utworzone zamówienia.",
+  "sales.widgets.newOrders.loading": "Ładowanie...",
+  "sales.widgets.newOrders.empty": "Brak nowych zamówień w tym okresie.",
+  "sales.widgets.newOrders.error": "Nie udało się załadować zamówień.",
+  "sales.widgets.newOrders.unknownCustomer": "Nieznany klient",
+  "sales.widgets.newOrders.showingOf": "Wyświetlane {shown} z {total}",
+  "sales.widgets.newOrders.settings.pageSize": "Ilość elementów",
+  "sales.widgets.newOrders.settings.datePeriod": "Okres",
+  "sales.widgets.newOrders.settings.customFrom": "Od dnia",
+  "sales.widgets.newOrders.settings.customTo": "Do dnia",
+  "sales.widgets.newOrders.periods.last24h": "Ostatnie 24 godziny",
+  "sales.widgets.newOrders.periods.last7d": "Ostatnie 7 dni",
+  "sales.widgets.newOrders.periods.last30d": "Ostatnie 30 dni",
+  "sales.widgets.newOrders.periods.custom": "Zakres własny"
 }

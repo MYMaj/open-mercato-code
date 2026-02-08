@@ -1554,5 +1554,20 @@
   "sales.search.badge.deliveryWindow": "Lieferfenster",
   "sales.search.badge.paymentMethod": "Zahlungsart",
   "sales.search.badge.taxRate": "Steuersatz",
-  "sales.search.badge.documentTag": "Dokumenten-Tag"
+  "sales.search.badge.documentTag": "Dokumenten-Tag",
+  "sales.widgets.newOrders.title": "Neue Bestellungen",
+  "sales.widgets.newOrders.description": "Verfolgen Sie kürzlich erstellte Bestellungen.",
+  "sales.widgets.newOrders.loading": "Wird geladen...",
+  "sales.widgets.newOrders.empty": "Keine neuen Bestellungen in diesem Zeitraum.",
+  "sales.widgets.newOrders.error": "Bestellungen konnten nicht geladen werden.",
+  "sales.widgets.newOrders.unknownCustomer": "Unbekannter Kunde",
+  "sales.widgets.newOrders.showingOf": "{shown} von {total} angezeigt",
+  "sales.widgets.newOrders.settings.pageSize": "Anzahl der Elemente",
+  "sales.widgets.newOrders.settings.datePeriod": "Zeitraum",
+  "sales.widgets.newOrders.settings.customFrom": "Von Datum",
+  "sales.widgets.newOrders.settings.customTo": "Bis Datum",
+  "sales.widgets.newOrders.periods.last24h": "Letzte 24 Stunden",
+  "sales.widgets.newOrders.periods.last7d": "Letzte 7 Tage",
+  "sales.widgets.newOrders.periods.last30d": "Letzte 30 Tage",
+  "sales.widgets.newOrders.periods.custom": "Benutzerdefiniert"
 }

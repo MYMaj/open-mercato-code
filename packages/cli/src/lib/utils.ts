@@ -1,6 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import crypto from 'node:crypto'
+import { pathToFileURL } from 'node:url'
 
 export type ChecksumRecord = {
   content: string
@@ -178,7 +179,9 @@ export function toSnake(s: string): string {
 
 export async function moduleHasExport(filePath: string, exportName: string): Promise<boolean> {
   try {
-    const mod = await import(filePath)
+    // Convert absolute paths to file:// URLs for Windows ESM compatibility
+    const importUrl = path.isAbsolute(filePath) ? pathToFileURL(filePath).href : filePath
+    const mod = await import(importUrl)
     return mod != null && Object.prototype.hasOwnProperty.call(mod, exportName)
   } catch {
     return false
